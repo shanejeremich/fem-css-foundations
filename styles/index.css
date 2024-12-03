@@ -1,0 +1,30 @@
+@import "./base.css";
+
+.home .main__heading {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.home .main__sub-heading {
+  font-size: 2.5rem;
+}
+
+.home .menu path {
+  fill: var(--color-text-on-primary);
+}
+
+@media (max-width: 76.25em) {
+  .home .main__heading {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 36.875em) {
+  .home .main__heading {
+    font-size: 40px;
+  }
+
+  .home .main__sub-heading {
+    font-size: 24px;
+  }
+}
